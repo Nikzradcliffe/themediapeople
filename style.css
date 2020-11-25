@@ -1,4 +1,4 @@
-*{ margin:0px; 
+*{ margin:0px;
 	padding:0px;
 	box-sizing: border-box;}
 
@@ -18,8 +18,7 @@ body{font-family: 'Poppins', sans-serif;
 		100% {
 			background-position: 0% 50%;
 		}
-	}@media screen and (max-width :1080px){
-		body{width:100%}
+	}@media screen and (max-width : 760px){
 		.nav-links{position: absolute;
 			right: 0px;
 			height: 30vh;
@@ -37,13 +36,9 @@ body{font-family: 'Poppins', sans-serif;
 		}
 		.logo-container h4{
 			display: none;
-		}
-		.cover img{
-			display:none;
-			
-	}
-}
 		
+		}
+	}
 header{
 	display: flex;
 width: 80%;
@@ -111,12 +106,12 @@ border-radius: 60px;
 }
 .cover{
 	flex: 1;
-	margin-top: 5%;
+	margin-top: 2%;
 }
 .cover img{
-	max-width: 80%;
+	max-width: 100%;
 	min-width:50%;
-	height: 50%;
+	height: auto;
 }
 .cover img{
 	animation: pic 25s ease infinite;
