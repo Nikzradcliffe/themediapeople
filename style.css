@@ -35,10 +35,6 @@ body{font-family: 'Poppins', sans-serif;
 		border-radius:50px 0px 50px 50px ;
 			
 		}
-	.nav-links{
-		font-size:40vh
-	}
-	
 		.intro-text h1{
 			font-size : 60ev;
 	text-align:left;
@@ -52,8 +48,12 @@ body{font-family: 'Poppins', sans-serif;
 	color: antiquewhite;
 
 }
-		.cover{
-			display: none;}
+		.presentation{
+			width:100%;
+			flex-direction: column;
+			align-items: center;
+
+	
 	}
 header{
 	display: flex;
