@@ -257,7 +257,7 @@ max-height: 40vh;}
   }
 }
 
-@media screen and (max-width : 760px){
+@media screen and (max-width : 760px,1080px){
 		.nav-links{position: absolute;
 			right: 0px;
 			height: 30vh;
