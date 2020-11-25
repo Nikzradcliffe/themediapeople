@@ -19,7 +19,7 @@ body{font-family: 'Poppins', sans-serif;
 			background-position: 0% 50%;
 		}
 	}
-@media screen and (max-width : 1080px){
+@media screen and (max-width : 760px){
 		.nav-links{position: absolute;
 			right: 0px;
 			height: 30vh;
