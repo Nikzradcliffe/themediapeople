@@ -18,7 +18,7 @@ body{font-family: 'Poppins', sans-serif;
 		100% {
 			background-position: 0% 50%;
 		}
-	}@media screen and (max-width : 760px){
+	}@media screen and (max-width :1080px){
 		.nav-links{position: absolute;
 			right: 0px;
 			height: 30vh;
@@ -36,8 +36,9 @@ body{font-family: 'Poppins', sans-serif;
 		}
 		.logo-container h4{
 			display: none;
-		
 		}
+		.cover img{
+			display:none;
 	}
 header{
 	display: flex;
@@ -111,7 +112,7 @@ border-radius: 60px;
 .cover img{
 	max-width: 80%;
 	min-width:50%;
-	height: auto;
+	height: 50%;
 }
 .cover img{
 	animation: pic 25s ease infinite;
