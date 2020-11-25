@@ -1,278 +1,70 @@
-*{ margin:0px;
-	padding:0px;
-	box-sizing: border-box;}
-
-body{font-family: 'Poppins', sans-serif;
-		background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-		background-size: 100% 100%;
-		animation: gradient 15s ease infinite;
-	}
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>The Media People</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="logo-container">
+			<h4>THE MEDIA PEOPLE
+			</h4>
+					</div>
+		<nav>
+		<ul class="nav-links">
+          <li ><a class="nav-link"href="#first-section">Home</a></li>
+          <li ><a class="nav-link"href="#second-section">About</a></li>
+          <li><a class="nav-link" href="#">Portfolio</a></li>
+           <li><a class="nav-link" href="#">Contact</a></li>
+	   </ul>
+	   
+   </nav>
+</header>
+<main>
+	<section class="presentation" id="first-section">
+            <div class="intro-text">
+			<h1> We offers <br>
+			The best designs  for You!</h1>
+			<p>hgiyg diuhgdsiufh uidsghfiushd  lor fuhs duif huds fhusdh fuh  sdf</p>
+		</div>
+		<div class="cover">
+			<img src="images/illu.png">
+		</div>
+			</section>
+			<section class="about" id="second-section">
+				<div class="about-discription">
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis praesentium eos <br> tempora recusandae reiciendis explicabo cum voluptatem accusamus necessitatibus totam excepturi magni voluptas, minima <br> 
+ labore illum quia, similique doloremque.</p>
+</div>
 	
-	@keyframes gradient {
-		0% {
-			background-position: 0% 50%;
-		}
-		50% {
-			background-position: 100% 50%;
-		}
-		100% {
-			background-position: 0% 50%;
-		}
-	}@media screen and (max-width : 760px){
-		.nav-links{position: absolute;
-			right: 0px;
-			height: 30vh;
-			top: 8vh;
-			display: flex;
-			flex-direction: column;
-			background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-			background-size:200% 300%;
-			box-shadow: darkslategray;
-			align-items: center;
-			width: 50%;
-			padding: 30px;
-		border-radius:50px 0px 50px 50px ;
-			
-		}
-		.logo-container h4{
-			display: none;
-		
-		}
-	}
-header{
-	display: flex;
-width: 80%;
-margin: auto; 
-height: 10vh;
-align-items: center;
-}
-.logo-container,.nav-links{
-	display: flex;
-
-}
-.logo-container{
-	flex: 2
-}
-.logo-container h4{
- color:white;
-
-}
-nav{
-	flex:2;
-
-}
-	.nav-links{
-		justify-content: space-around;
-		list-style: none;
-	
-	}
-.nav-link{
-	color: white;
-	font-size: 14px;
-	letter-spacing: 1pt;
-	text-decoration: none;
-	padding: 8px;
-
-}
-nav a:hover{
-
-background-color: rgb(255, 255, 255);
-color: black;
-padding: 5px 15px;
-font-size: 1.5x;
-border-radius: 60px;
-
-}
-.presentation{
-	margin: auto;
-	margin-top: 0ex;
-	display: flex;
-	width: 80%;
-	height:92vh;
-	align-items: center;
-	overflow: hidden;
-}
-
-.intro-text h1{
-	font-size : 30ev;
-	text-align:left;
-	color: rgb(255, 255, 255);
-
-}
-.intro-text p{
-	font-size: 20px;
-	color: antiquewhite;
-
-}
-.cover{
-	flex: 1;
-	margin-top: 2%;
-}
-.cover img{
-	max-width: 100%;
-	min-width:50%;
-	height: auto;
-}
-.cover img{
-	animation: pic 25s ease infinite;
-}
-
-@keyframes pic {
-	0% {
-		opacity:100 ;;
-	}
-	25% {
-opacity: 50;
-	}
-	
-	50%{
-		opacity:0 ;
-	}
-	75% {
-		opacity: 50;
-	}
-	100% {
-opacity: 100;
-}
-}
-.about{
-	margin: auto;
-	margin-top: 0ex;
-	display: flex;
-	width: 100%;
-		align-items:center;
-	min-height: 100vh;
-	justify-content: space-around;
-
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
-}
-.about-discription p{
-		font-size: 15px;
-		color: rgb(32, 32, 32);
-		flex: 1;
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-.cover2{
-	flex: 2;
-	align-self: auto;
-	margin-top:1%;
-	margin-right: 10%;
-}
-.cover2 img{
-	height: auto;
-max-height: 40vh;}
-.skill-container{
-	width: 50%;
-	margin: 0 auto;
-	padding: 0% 10% 0% 0%;
-  }
-  @keyframes load{
-	from {
-	  width: 0%
-	}
-  }
-  @-webkit-keyframes load{
-	from {
-	  width: 0%
-	}
-  }
-  @-moz-keyframes load{
-	from {
-	  width: 0%
-	}
-  }
-  @-o-keyframes load{
-	from {
-	  width: 0%
-	}
-  }
-  
-  .bar{
-	background-color: #EEE;
-	padding: 2px;
-	border-radius: 15px;
-	margin-bottom: 5px;
-	font-size: 14px;
-	color: #FFF;
-	font-weight: bold;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-  }
-  .bar::before{
-	content:  attr(data-skill);
-	background-color: #6e0707;
-	display: inline-block;
-	padding: 5px 0 5px 10px;
-	border-radius: inherit;
-	animation: load 2s 0s;
-	-webkit-animation: load 2s 0s;
-	-moz-animation: load 2s 0s;
-	-o-animation: load 2s 0s;
-  }
-  
-  .bar.front::before{
-	background-color: #6e0707;
-  }
-  .bar.back::before{
-	background-color:#420202;
-  }
-  
-  .bar.learning::before{
-	width: calc(20% - 10px);
-  }
-  .bar.basic::before{
-	width: calc(40% - 10px);
-  }
-  .bar.intermediate::before{
-	width: calc(60% - 10px);
-  }
-  .bar.advanced::before{
-	width: calc(80% - 10px);
-  }
-  .bar.expert::before{
-	width: calc(100% - 10px);
-  }
-  .item {
-	z-index: 100;
-	padding: 0px;}
-	.item img {
-		width: 150px;
-	  }
-    #container {
-      width: 500px;
-      height: 400px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-      position: relative;
-    }
-  .circle {
-	border-radius: 50%;
-	background-color: rgb(136, 136, 136);
-	width: 150px;
-	height: 150px;
-	position: absolute;
-	opacity: 0;
-  }
-  .circle {
-	border-radius: 50%;
-	background-color: rgb(106, 109, 110);
-	width: 150px;
-	height: 150px;
-	position: absolute;
-	opacity: 0;
-	animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
-  }
-  @keyframes scaleIn {
-  from {
-    transform: scale(.5, .5);
-    opacity: .5;
-  }
-  to {
-    transform: scale(2.5, 2.5);
-    opacity: 0;
-  }
-}
-
+<div class="cover2" id="outerContainer">
+    <div id="container">
+      
+	  <div class="circle"></div>
+	  <div id="outerContainer">
+		<div id="container">
+		  <div class="item">
+			<img src="images/redlogo.png" />
+		  </div>
+		  <div class="circle" style="animation-delay: 0s"></div>
+		  <div class="circle" style="animation-delay: 1s"></div>
+		  <div class="circle" style="animation-delay: 2s"></div>
+		  <div class="circle" style="animation-delay: 3s"></div>
+		</div>
+	  </div>
+    </div>
+  </div>
+	<div class="skill-container">
+		<h1>Skill Set</h1>
+		<div class="bar learning" data-skill="TDD"></div>
+		<div class="bar back basic" data-skill="Python"></div>
+		<div class="bar back intermediate" data-skill="C#"></div>
+		<div class="bar front advanced" data-skill="CSS3"></div>
+		<div class="bar front expert" data-skill="HTML5"></div>
+	 </div>
+</section>
+</main>
+</body>
+</html>
