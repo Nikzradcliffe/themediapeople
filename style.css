@@ -19,6 +19,7 @@ body{font-family: 'Poppins', sans-serif;
 			background-position: 0% 50%;
 		}
 	}@media screen and (max-width :1080px){
+		body{width:100%}
 		.nav-links{position: absolute;
 			right: 0px;
 			height: 30vh;
@@ -41,7 +42,7 @@ body{font-family: 'Poppins', sans-serif;
 			display:none;
 			
 	}
-		body{width:100%}
+		
 header{
 	display: flex;
 width: 80%;
