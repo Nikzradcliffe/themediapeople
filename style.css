@@ -18,22 +18,27 @@ body{font-family: 'Poppins', sans-serif;
 		100% {
 			background-position: 0% 50%;
 		}
-	}@media screen and (max-width : 1080px){
+	}
+@media screen and (max-width : 1080px){
 		.nav-links{position: absolute;
 			right: 0px;
 			height: 30vh;
-			top: 8vh;
+			top: 5vh;
 			display: flex;
 			flex-direction: column;
 			background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 			background-size:200% 300%;
 			box-shadow: darkslategray;
 			align-items: center;
-			width: 50%;
+			width: 100%;
 			padding: 30px;
 		border-radius:50px 0px 50px 50px ;
 			
 		}
+	.nav-links{
+		font-size:40vh
+	}
+	
 		.intro-text h1{
 			font-size : 60ev;
 	text-align:left;
