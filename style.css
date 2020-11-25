@@ -18,26 +18,6 @@ body{font-family: 'Poppins', sans-serif;
 		100% {
 			background-position: 0% 50%;
 		}
-	}@media screen and (max-width : 760px){
-		.nav-links{position: absolute;
-			right: 0px;
-			height: 30vh;
-			top: 8vh;
-			display: flex;
-			flex-direction: column;
-			background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-			background-size:200% 300%;
-			box-shadow: darkslategray;
-			align-items: center;
-			width: 50%;
-			padding: 10px 0px;
-		border-radius:50px 0px 50px 50px ;
-			
-		}
-		.logo-container h4{
-			display: none;
-		
-		}
 	}
 header{
 	display: flex;
@@ -258,6 +238,7 @@ max-height: 40vh;}
   }
   .circle {
 	border-radius: 50%;
+	  
 	background-color: rgb(106, 109, 110);
 	width: 150px;
 	height: 150px;
@@ -276,3 +257,24 @@ max-height: 40vh;}
   }
 }
 
+@media screen and (max-width : 760px){
+		.nav-links{position: absolute;
+			right: 0px;
+			height: 30vh;
+			top: 8vh;
+			display: flex;
+			flex-direction: column;
+			background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+			background-size:200% 300%;
+			box-shadow: darkslategray;
+			align-items: center;
+			width: 50%;
+			padding: 10px 0px;
+		border-radius:50px 0px 50px 50px ;
+			
+		}
+		.logo-container h4{
+			display: none;
+		
+		}
+	}
